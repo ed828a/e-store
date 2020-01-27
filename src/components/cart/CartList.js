@@ -13,7 +13,6 @@ export default function CartList({value}) {
                     );
                 })
             }
-            <CartItem />
         </div>
     )
 }

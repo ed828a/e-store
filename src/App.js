@@ -8,6 +8,7 @@ import Details from './components/Details';
 import Cart from './components/cart/';
 import Default from './components/Default';
 import Modal from './components/Modal';
+import TestSetState from './components/TestSetState';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route component={Default} />
       </Switch>
       <Modal />
+      {/* <TestSetState /> */}
     </React.Fragment>
   );
 }
